@@ -85,22 +85,7 @@ avrdude -c <programmer> -p <mcu> -U flash:w:mrp3mv4.hex
 ---
 
 ## 사진 및 동영상 추가 안내 📸🎥
-로봇 사진과 데모 영상(짧은 GIF 또는 MP4)을 README에 포함하려면 아래 경로에 업로드해 주세요:
-
-- 대표 사진(권장): `docs/images/mrp3mv4.jpg` 또는 `docs/images/mrp3mv4.png` (가로 ≤1200px)
-- 루핑 GIF(선택): `docs/images/demo.gif` (5–10초 권장, 용량 1–5MB 권장)
-- 전체 데모 영상(선택): `docs/videos/demo.mp4` 또는 유튜브 링크
-- 데모 영상(로컬 파일): [docs/videos/demo.mp4](docs/videos/demo.mp4) — 리포지토리에서 클릭하면 새 탭에서 재생됩니다.
-
-업로드 시 처리:
-- 사진은 `docs/images/mrp3mv4.jpg`로 저장하고 README 상단에 포함합니다. (기본 캡션/alt 포함)
-- 동영상은 `docs/videos/demo.mp4`로 저장하거나 유튜브 링크를 README에 링크합니다.
-- 필요 시 업로드된 영상에서 **짧은 GIF(5–10초)**를 생성하여 README에 표시할 수 있습니다.
-
-기본 캡션: "MRP3MV4 로봇 - 테스트 베드 위 모습"
-기본 alt 텍스트: "MRP3MV4 로봇 상단 뷰: 컨트롤 박스와 홀로노믹 휠"
-
-파일을 업로드해 주세요 (사진/동영상 둘 다 가능). 어떤 형식(MP4 업로드 vs YouTube 링크)을 원하시는지 알려주시면 바로 반영하겠습니다.
+필요 시 사진/동영상 자료는 `docs/images/` 및 `docs/videos/`에 추가해 주세요.
 
 ---
 
