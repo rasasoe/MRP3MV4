@@ -92,10 +92,10 @@ avrdude -c <programmer> -p <mcu> -U flash:w:mrp3mv4.hex
 - 전체 데모 영상(선택): `docs/videos/demo.mp4` 또는 유튜브 링크
 - 데모 영상(로컬 파일): [docs/videos/demo.mp4](docs/videos/demo.mp4) — 리포지토리에서 클릭하면 새 탭에서 재생됩니다.
 
-제가 해드릴 일:
-- 업로드해주신 사진을 `docs/images/mrp3mv4.jpg`로 저장하고 README 상단에 포함합니다. (기본 캡션/alt 포함)
-- 업로드해주신 동영상을 `docs/videos/demo.mp4`로 저장하거나 유튜브 링크를 README에 링크합니다.
-- 원하시면 업로드한 영상에서 **짧은 GIF(5–10초)**를 만들어 README에 바로 표시해 드립니다.
+업로드 시 처리:
+- 사진은 `docs/images/mrp3mv4.jpg`로 저장하고 README 상단에 포함합니다. (기본 캡션/alt 포함)
+- 동영상은 `docs/videos/demo.mp4`로 저장하거나 유튜브 링크를 README에 링크합니다.
+- 필요 시 업로드된 영상에서 **짧은 GIF(5–10초)**를 생성하여 README에 표시할 수 있습니다.
 
 기본 캡션: "MRP3MV4 로봇 - 테스트 베드 위 모습"
 기본 alt 텍스트: "MRP3MV4 로봇 상단 뷰: 컨트롤 박스와 홀로노믹 휠"
