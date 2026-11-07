@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/portfolio-banner.svg" width="100%" alt="MRP3MV4 — project overview"></p>
+
 # MRP3MV4 — Holonomic Mobile Robot Platform
 
 <div align="center">
