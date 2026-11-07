@@ -1,22 +1,30 @@
-<p align="center"><img src="assets/portfolio-banner.svg" width="100%" alt="MRP3MV4 — project overview"></p>
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/portfolio-banner-mobile.svg">
+  <img src="assets/portfolio-banner.svg" width="100%" alt="MRP3MV4 — AVR robotics experiments">
+</picture>
 
-# MRP3MV4 — Holonomic Mobile Robot Platform
+<p align="right"><a href="README.md">한국어</a> / <strong>English</strong></p>
 
-<div align="center">
-  <p><a href="README.md">🇰🇷 한국어</a> · <strong>🇺🇸 English</strong></p>
-</div>
+# MRP3MV4 — AVR Holonomic Robot Platform
 
+**Robotics progression 01 / 03 · AVR · LM629 · PSD sensors**
 
-<div align="center">
+This project introduced the connection between **distance sensing, embedded control, and real three-wheel motion** using an AVR/LM629-based platform. It provided the foundation for a later Pico encoder-control experiment (AMR) and the ROS 2 BuddyBot integration.
 
+## Engineering experience
 
-<a href="docs/videos/demo.mp4"><img src="docs/images/mrp3mv4.jpg" width="500" alt="MRP3MV4 robot"/></a>
+- Three-wheel holonomic motion and demonstration modes
+- PSD distance-sensor input for obstacle response
+- AVR firmware control flow, button-triggered tasks, motor behavior
+- Next step: implement speed feedback and proportional control directly on Pico
 
-<a href="docs/videos/demo.mp4"><img src="docs/images/demo_small.gif" width="500" alt="MRP3MV4 animated demonstration"/></a>
+## Real hardware demonstration
 
-*Click the robot photo or animated preview to open the demonstration video.*
+<p align="center"><a href="docs/videos/demo.mp4"><img src="docs/images/demo_small.gif" width="100%" alt="MRP3MV4 robot motion demonstration"></a></p>
 
-</div>
+[Original video](docs/videos/demo.mp4) · [AMR](https://github.com/rasasoe/AMR) · [BuddyBot](https://github.com/rasasoe/BuddyBot)
+
+---
 
 ## Overview
 
