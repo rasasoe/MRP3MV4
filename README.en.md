@@ -9,9 +9,6 @@
 
 <div align="center">
 
-[<img alt="AVR" src="https://img.shields.io/badge/MCU-AVR-2F3E51"/>](#hardware)
-[<img alt="Language" src="https://img.shields.io/badge/Language-C-00599C?logo=c&logoColor=white"/>](#source-code)
-[<img alt="Drive" src="https://img.shields.io/badge/Drive-3--Wheel_Holonomic-0D9488"/>](#overview)
 
 <a href="docs/videos/demo.mp4"><img src="docs/images/mrp3mv4.jpg" width="500" alt="MRP3MV4 robot"/></a>
 
