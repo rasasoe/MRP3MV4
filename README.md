@@ -1,4 +1,6 @@
-# MRP3MV4 (MRP3M V3/V4) 로봇 플랫폼 🔧🤖
+<p align="center"><img src="assets/portfolio-banner.svg" width="100%" alt="MRP3MV4 — project overview"></p>
+
+# MRP3MV4 — 홀로노믹 로봇 플랫폼
 
 <p align="center"><b>🌐 Language</b> &nbsp; <strong>🇰🇷 한국어</strong> &nbsp; | &nbsp; <a href="README.en.md">🇺🇸 English</a></p>
 
