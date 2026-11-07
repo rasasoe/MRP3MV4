@@ -1,15 +1,30 @@
-<p align="center"><img src="assets/portfolio-banner.svg" width="100%" alt="MRP3MV4 — project overview"></p>
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/portfolio-banner-mobile.svg">
+  <img src="assets/portfolio-banner.svg" width="100%" alt="MRP3MV4 — AVR 로봇 실험">
+</picture>
 
-# MRP3MV4 — 홀로노믹 로봇 플랫폼
+<p align="right"><strong>한국어</strong> / <a href="README.en.md">English</a></p>
 
-<p align="center"><b>🌐 Language</b> &nbsp; <strong>🇰🇷 한국어</strong> &nbsp; | &nbsp; <a href="README.en.md">🇺🇸 English</a></p>
+# MRP3MV4 — AVR 기반 3륜 홀로노믹 로봇
 
+**로봇 개발 경험 01 / 03 · AVR · LM629 · PSD 센서**
 
-[![MRP3MV4 로봇 - 테스트 베드 위 모습](docs/images/mrp3mv4.jpg "MRP3MV4 로봇 - 클릭하면 데모 영상 재생")](docs/videos/demo.mp4)
+이 프로젝트에서는 AVR·LM629 기반의 로봇 구동 플랫폼을 사용해 **센서 입력이 실제 주행 동작으로 연결되는 과정**을 익혔습니다. 이후 직접 피드백 제어를 구현한 AMR, 그리고 ROS 2 기반 BuddyBot으로 경험을 확장했습니다.
 
-[![MRP3MV4 데모 (GIF, 루프)](docs/images/demo_small.gif "데모 GIF - 클릭하면 전체 동영상 재생")](docs/videos/demo.mp4)
+## 직접 다룬 내용
 
-*대표 이미지(클릭 시 전체 동영상 재생). 아래 GIF는 데모 동작을 간략히 보여줍니다.*
+- **주행:** 세 바퀴 홀로노믹 구동과 이동·회전 데모
+- **센서:** PSD 거리 센서를 통한 근접 물체 감지와 회피·거리 유지 동작
+- **제어:** AVR 펌웨어의 데모·태스크 모드, 스위치 입력과 구동 동작
+- **다음 단계:** 보드의 기존 제어 기능을 활용하던 경험을 바탕으로, Pico에서 엔코더 피드백과 P제어를 직접 구현
+
+## 실물 시연
+
+<p align="center"><a href="docs/videos/demo.mp4"><img src="docs/images/demo_small.gif" width="100%" alt="AVR 기반 로봇 주행 시연 GIF"></a></p>
+
+[원본 주행 영상](docs/videos/demo.mp4) · [AMR — 다음 개발 경험](https://github.com/rasasoe/AMR) · [BuddyBot — 최종 통합 프로젝트](https://github.com/rasasoe/BuddyBot)
+
+---
 
 ## 프로젝트 개요 ✨
 **MRP3MV4**는 홀로노믹 구동 플랫폼을 기반으로 한 교육/연구용 모바일 로봇입니다. 이 저장소는 AVR 기반 펌웨어 (모터 제어, 센서 읽기, 데모/태스크 모드 등)를 포함하고 있으며 주 기능은 다음과 같습니다:
